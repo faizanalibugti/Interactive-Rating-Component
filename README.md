@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop Preview](./screenshot_home.jpg)
-![Desktop Thank you State](./screenshot_thankyou.jpg)
+![Desktop Preview](./screenshot_home.png)
+![Desktop Thank you State](./screenshot_thankyou.png)
 
 ## My process
 
