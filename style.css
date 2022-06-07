@@ -1,0 +1,100 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  body {
+    font-family: "Overpass", sans-serif;
+    background-color: hsl(216, 12%, 8%);
+    margin: 0;
+    padding: 0;
+  }
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  .body-wrapper {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .wrapper {
+    width: 400px;
+
+    padding: 20px;
+    border-radius: 20px;
+
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(0, 0%, 100%);
+  }
+  .wrapper > * {
+    margin-bottom: 20px;
+  }
+  .center {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .pill-btn {
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    color: hsl(0, 0%, 100%);
+    padding: 10px 150px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 4px;
+    cursor: pointer;
+    border-radius: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  .pill-btn:active {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+  }
+  .rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .rating > * {
+    margin-right: 20px;
+  }
+  .number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: hsl(217, 12%, 63%);
+    background-color: hsl(216, 12%, 21%);
+    cursor: pointer;
+  }
+  .active {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(25, 97%, 53%);
+  }
+  .rate-val:hover {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(217, 12%, 63%);
+  }
+  @media only screen and (max-width: 400px) {
+    .wrapper {
+      width: 355px;
+    }
+
+    .pill-btn {
+      padding: 10px 130px;
+    }
+  }
